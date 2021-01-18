@@ -1,0 +1,210 @@
+
+/*MAIN PAGE!!!!*/
+
+/* navabr and background pic*/
+
+.logo-red{
+    max-width: 6%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.px-5 {
+ padding-left: (spacer 3.0) !important;
+}
+
+.pe-5 {
+ padding-right: (spacer 3.0) !important;
+}
+
+
+
+.bg-img {
+ position: absolute; 
+ top: 0; 
+ left: 0; 
+ right: 0; 
+ bottom: 0; 
+ 
+ min-width: 100%;
+ min-height: 100%;
+ opacity: 0.5;
+}
+
+/*.nav-background{
+ background-color: #1a1010 ;
+}*/
+
+.nav-link:hover {
+ text-decoration: overline;
+}
+
+/* Carousel*/
+
+#carouselExampleCaptions {
+
+position: absolute; 
+ top: 0; 
+ left: 0; 
+ right: 0; 
+ bottom: 0; 
+}
+
+.footer{
+background-color: #393E46;
+}
+
+h5{
+font-size: 40px;
+color: red;
+font-weight: 100px bold;
+}
+
+/*Gallery Cards*/
+
+.card-group {
+
+padding-left: 50%;
+padding-right: 50%;
+position: relative; 
+ top: 0; 
+ left: 0; 
+ right: 0; 
+ bottom: 0; 
+min-width: 50%;
+min-height: 20%;
+}
+
+/* Gallery*/
+
+
+.gallery-container {
+margin-top: 300px;
+/*border-color:red;
+border-style: solid;
+border-width: 20px;*/
+}
+
+.gallery-container2 {
+margin-top: 50px;
+/*border-color:red;
+border-style: solid;
+border-width: 20px;*/
+}
+
+.gallery-image {
+width: 100%;
+border-radius: 20px;
+/*border-color: grey;
+border-style: solid;
+border-width: 3px;*/
+}
+
+
+.col {
+padding-left: 10px;
+}
+
+.p-copyright{
+
+width: 100%
+
+}
+
+/* Bio*/
+
+.bio-text{
+margin-top: 100px;
+}
+
+.bio-text2{
+margin-top: 50px;
+}
+.bio-whole-text{
+padding-top: 100px;
+padding-right: 20%;
+padding-left: 20%;
+}
+
+.bio-container {
+margin-top: 0px;
+}
+
+.h-title{
+padding-top: 80px
+}
+
+
+.gallery-dropdown:hover {
+ text-decoration: overline;
+}
+
+.div-background-color{
+background-color: #393E46
+}
+
+
+.picture-contianer {
+ width:100%; 
+ float:left; 
+ margin-top:15px;
+ padding-top: 200px;
+}
+.picture-container:hover .overlay {
+opacity: 1;
+}
+
+
+.profile-container {
+position: relative;
+
+padding-left: 70px;
+text-align: left;
+color: #ea002a;
+margin-top: 200px;
+}
+
+.profile-container:hover .overlay {
+opacity: 1;
+}
+.profile-image {
+width: 50%;
+padding-right: 30px;
+
+}
+
+.profile-title {
+text-align: left;
+padding-top: 50px;
+padding-left: 160px;
+padding-right: 50px;
+padding-bottom: 300px;
+
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 40%;
+width: 40%;
+opacity: 0;
+transition: .5s ease;
+}
+
+.text {
+color: whitesmoke ;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+
+
