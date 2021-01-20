@@ -31,6 +31,17 @@
  opacity: 0.5;
 }
 
+.bg-img-bio {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.1;
+   }
 /*.nav-background{
  background-color: #1a1010 ;
 }*/
@@ -40,6 +51,7 @@
 }
 
 /* Carousel*/
+    
 
 #carouselExampleCaptions {
 
@@ -55,11 +67,22 @@ background-color: #393E46;
 }
 
 h5{
-font-size: 40px;
-color: red;
-font-weight: 100px bold;
+font-size: 25px;
+color: white;
+font-weight: 100px;
+font-family: 'Playfair Display', serif;
+padding: 10px 0px 0px;
 }
 
+
+h4{
+    font-size: 25px;
+    color:red;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 0px 0px;
+    font-size: 50px;
+    font-weight: 200 bold;
+    }
 /*Gallery Cards*/
 
 .card-group {
@@ -93,20 +116,21 @@ border-width: 20px;*/
 }
 
 .gallery-image {
-width: 100%;
-border-radius: 20px;
-/*border-color: grey;
+width: 100%100px;
+border-radius: 5px;
+border-color:white;
 border-style: solid;
-border-width: 3px;*/
+border-width: 0.5px;
+margin: 0 10px 5px;
 }
 
 
 .col {
-padding-left: 10px;
+padding-left: 5px;
 }
 
 .p-copyright{
-
+padding-top: 15%;
 width: 100%
 
 }
@@ -114,21 +138,21 @@ width: 100%
 /* Bio*/
 
 .bio-text{
-margin-top: 100px;
+margin-top: 150px;
+font-family: 'Playfair Display', serif;
 }
 
 .bio-text2{
 margin-top: 50px;
+font-family: 'Playfair Display', serif;
 }
 .bio-whole-text{
 padding-top: 100px;
 padding-right: 20%;
 padding-left: 20%;
+font-family: 'Playfair Display', serif;
 }
 
-.bio-container {
-margin-top: 0px;
-}
 
 .h-title{
 padding-top: 80px
@@ -142,6 +166,7 @@ padding-top: 80px
 .div-background-color{
 background-color: #393E46
 }
+
 
 
 .picture-contianer {
@@ -207,4 +232,66 @@ text-align: center;
 }
 
 
+/*Gallery2*/
 
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    margin-top: 150px;
+    color: white;
+  }
+  
+  .row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 15%;
+    
+  }
+  
+  .column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 50px 4px;
+    margin: 10px 10px 5px;
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  
+
+  
